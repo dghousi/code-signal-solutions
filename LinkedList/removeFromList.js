@@ -8,7 +8,9 @@ function removeKFromList(head, k) {
 
     if (head == null || head == undefined) {
         return head;   
-    } else if(head.value == k) {   head = head.next;}
+    } else if(head.value == k) {
+        head = head.next;
+    }
       
     n = head;
 
